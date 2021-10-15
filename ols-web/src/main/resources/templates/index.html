@@ -54,6 +54,14 @@
                 </form>
             </div>
 
+	    <div style="background:rgba(0, 124, 130, 0.2);border-radius:9px">
+	      <p>Narrow your search by category:</p>
+	      <ul>
+		<li><a href="/search?ontology=doid&ontology=mondo">Disease state or diagnosis</a></li>
+		<li><a href="/search?ontology=uberon">Tissue</a></li>
+		</ul>
+	    </div>
+	    
             <div th:if="${debrand} == false">
                 <div class="small-4 columns">
                     <h4>
